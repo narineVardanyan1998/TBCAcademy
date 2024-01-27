@@ -1,0 +1,394 @@
+@font-face {
+  font-family: "GeoSans"; /* Choose a name for your custom font family */
+  src: url("../fonts/font.woff2") format("woff2"),
+    url("./fonts/font.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: GeoSans;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.main-header{
+  position: fixed;
+  z-index: 1000;
+}
+.slider {
+  height: 364px;
+  background-color: #2b2b2b;
+}
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+.swiper-container {
+  width: 52%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.swiper-button-prev{
+    padding-left: 5rem;
+}
+.swiper-button-next{padding-right: 5rem}
+.slider-title {
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  font-weight: normal;
+  font-size: 24px;
+  padding-top: 34px;
+}
+.swiper-slide {
+  width: calc((100% - 20px) / 3);
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+.fixed {
+  position: fixed;
+}
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  height: 84px;
+  width: 100%;
+  align-items: center;
+  background-color: #1a1e1f;
+}
+
+.row {
+  display: flex;
+  gap: 48px;
+  margin: 0;
+}
+li {
+  box-sizing: border-box;
+  overflow: visible;
+  visibility: inherit;
+  text-align: right;
+  line-height: 26px;
+}
+
+li a {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+.tbc {
+  color: rgb(10, 178, 245);
+}
+.list:hover {
+  color: rgb(10, 178, 245);
+}
+
+.background-image {
+  background: url(./img/background-img.jpg);
+  background-size: cover;
+  position: relative;
+  height: 352px;
+  padding-top: 84px;
+  margin-top: 84px;
+  z-index: 1;
+}
+.background-image-text{}
+.background-image-text h3{
+    font-size: 42px;
+    color: #fff;
+    font-weight: bold;
+}
+.background-image-text small{
+    font-size: 34px;
+    color: #fff;
+}
+.container-slider {
+  overflow: hidden;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  padding-top: 84px;
+}
+
+.background-img {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+}
+.background-text {
+  color: #fff;
+  background: none;
+}
+
+.tbctext-container {
+  position: relative;
+  background: rgb(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tbctext {
+  line-height: 1.6em;
+  color: #fff;
+}
+.link-main {
+  color: rgb(10, 178, 245);
+  font-size: 20px;
+  margin-top: 44px;
+}
+.container-link {
+  display: flex;
+  justify-content: left;
+}
+.link {
+  color: rgb(10, 178, 245);
+}
+.link:hover {
+  color: #fff;
+}
+.cards{
+    background-color: rgb(22, 22, 22);
+}
+.cards-title{
+  color: #fff;
+  font-weight: normal;
+  font-size: 24px;
+  padding: 50px 0 20px 0;
+}
+.cards-content{
+      margin: 0 -20px;
+}
+.texth3 {
+  display: flex;
+  justify-content: left;
+  color: #fff;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+.card-content{
+    padding: 20px;
+}
+.card-container2 {
+  display: flex;
+  justify-content: center;
+}
+.card-container3 {
+  display: flex;
+  justify-content: center;
+}
+
+.card1 {
+  border: 0.1px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card1 h5 {
+  color: white;
+}
+.card1 p {
+  color: #fff;
+}
+
+.card2 {
+  border: 0.1px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card2 h5 {
+  color: white;
+}
+.card2 p {
+  color: #fff;
+}
+
+.card3 {
+  border: 0.1px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card3 h5 {
+  color: white;
+}
+.card3 p {
+  color: #fff;
+}
+
+.card4 {
+  border: 0.1px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card4 h5 {
+  color: white;
+}
+.card4 p {
+  color: #fff;
+}
+
+.card5 {
+  border: 0.1px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card5 h5 {
+  color: white;
+}
+.card5 p {
+  color: #fff;
+}
+
+.card6 {
+  border: 0.1px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card6 h5 {
+  color: white;
+}
+.card6 p {
+  color: #fff;
+}
+
+.card7 {
+  border: 0.1px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card7 h5 {
+  color: white;
+}
+.card7 p {
+  color: #fff;
+}
+
+.card8 {
+  border: 0.1px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card8 h5 {
+  color: white;
+}
+.card8 p {
+  color: #fff;
+}
+
+.card9 {
+  border: 0.1px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card9 h5 {
+  color: white;
+}
+.card9 p {
+  color: #fff;
+}
+
+h2 {
+  color: rgb(10, 178, 245);
+}
+.accordion-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+.accordion-body li{
+    border-bottom: 1px solid rgb(50, 50, 50);
+    text-align: left;
+    padding: 18px 0;
+    margin-bottom: 12px;
+}
+.accordion-main{
+    background-color: rgb(22, 22, 22);
+    padding: 80px 0;
+}
+.accordionh2 {
+  color: #fff;
+}
+.question {
+  color: rgb(10, 178, 245);
+}
+.accordion-question {
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  justify-content: space-around;
+}
+.accordion {
+  background-color: rgb(22, 22, 22);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.panel {
+  display: none;
+  background-color: rgb(22, 22, 22);
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion {
+  display: flex;
+  justify-content: space-between;
+}
+.panel p {
+  color: #fff;
+}
+.panel.show {
+  display: block;
+}
+.fa-chevron-down.rotate {
+  transform: rotate(180deg);
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  background-color: #1a1e1f;
+}
+.icons-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.fa-facebook {
+  color: gray;
+}
+.fa-youtube {
+  color: gray;
+}
+.btn {
+  background: rgb(10, 178, 245);
+  width: 12em;
+  height: 3em;
+  border-radius: 5px;
+}
+.btn-text {
+  color: #fff;
+}

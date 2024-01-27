@@ -1,0 +1,263 @@
+.container {width: 980px;margin: 0 auto;padding: 0 18px;}
+.navigation {
+  top: 0;
+  left: 0;
+  padding: 0 25%;
+}
+.row {
+  margin-left: 25%;
+  margin-top: 1.5%;
+}
+li {
+}
+
+
+.background-img{
+  margin-left:15% ;
+}
+.container-link{
+  margin-top: 20%;
+}
+.texth3{
+ margin-left: 28%;
+ padding: 5%;
+}
+.tbctext-container{
+ width: 100%;
+ padding: 4%;
+}
+.link-main{
+  bottom:0;
+  left:24%; 
+  }
+.card-container{
+margin: 0 auto;
+}
+
+.card-container2{
+margin: 0 auto;
+}
+.card-container3{
+margin: 0 auto;
+}
+
+.card1{
+width: 100%;
+margin: 20px;
+} 
+.card1 img{
+width: 100%;
+}
+.card1 h2 {
+padding: 2%;
+margin-bottom: 0;
+}
+.card1 h5 {
+padding: 2%;
+}
+.card1 p{
+padding: 2%;
+}
+
+.card2{
+width: 100%;
+margin: 20px;
+} 
+.card2 img{
+width: 100%; 
+}
+.card2 h2 {
+padding: 2%;
+margin-bottom: 0;
+}
+.card2 h5 {
+padding: 2%;
+}
+.card2 p{
+padding: 2%;
+}
+
+.card3{
+width: 100%;
+margin: 20px;
+} 
+.card3 img{
+width: 100%;
+}
+.card3 h2 {
+padding: 2%;
+margin-bottom: 0;
+}
+.card3 h5 {
+padding: 2%;
+}
+.card3 p{
+padding: 2%;
+}
+
+.card4{
+width: 100%;
+margin: 20px;
+} 
+.card4 img{
+width: 100%;
+}
+.card4 h2 {
+padding: 2%;
+margin-bottom: 0;
+}
+.card4 h5 {
+padding: 2%;
+}
+.card4 p{
+padding: 2%;
+}
+  
+.card5{
+width:100%;
+margin: 20px;
+} 
+.card5 img{
+width: 100%;
+}
+.card5 h2 {
+padding: 2%;
+margin-bottom: 0;
+}
+.card5 h5 {
+padding: 2%;
+}
+.card5 p{
+padding: 2%;
+}
+  
+
+.card6{
+width: 100%;
+margin: 20px;
+} 
+.card6 img{
+width: 100%;
+}
+.card6 h2 {
+padding: 2%;
+margin-bottom: 0;
+}
+.card6 h5 {
+padding: 2%;
+}
+.card6 p{
+padding: 2%;
+}
+  
+
+.card7{
+width:100%;
+margin: 20px;
+} 
+.card7 img{
+width: 100%;
+}
+.card7 h2 {
+padding: 2%;
+margin-bottom: 0;
+}
+.card7 h5 {
+padding: 2%;
+}
+.card7 p{
+padding: 2%;
+}
+  
+
+.card8{
+width: 100%;
+margin: 20px;
+} 
+.card8 img{
+width: 100%;
+}
+.card8 h2 {
+padding: 2%;
+margin-bottom: 0;
+}
+.card8 h5 {
+padding: 2%;
+}
+.card8 p{
+padding: 2%;
+}
+  
+
+.card9{
+width: 100%;
+margin: 20px;
+} 
+.card9 img{
+width: 100%;
+}
+.card9 h2 {
+padding: 2%;
+margin-bottom: 0;
+}
+.card9 h5 {
+padding: 2%;
+}
+.card9 p{
+padding: 2%;
+}
+  
+h2{
+padding-bottom: 0;
+}
+
+.accordion {width: 100%;}
+.panel {
+  padding: 0 18px;
+  padding-left: 18px;
+}
+.accordion{
+}
+.panel.show {
+ max-height: 500px; 
+}
+.fa-chevron-down{
+margin: 2%;
+}
+footer{
+ width: 100%;
+ padding: 5%;
+}
+.icons-container{  
+ gap:2%;
+}
+.btn{
+  width: 12em;
+  height: 3em;
+}
+
+@media(min-width:576px){
+  body{
+    width: 30%;
+  }
+}
+@media(min-width:768px){  
+  body{
+    width: 50%;
+  }
+}
+@media(min-width:992px){
+  body{
+    width: 65%;
+  }
+}
+@media(min-width:1200px){
+  body{
+    width: 85%;
+  }   
+}
+ @media(min-width:1400px){  
+  body{
+    width: 100%;
+  } 
+}
